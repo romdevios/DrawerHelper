@@ -3,11 +3,11 @@
     "pins": [
       {
         "package": "DrawerHelper",
-        "repositoryURL": "/Users/romanfilippov/projects/DrawerHelper/",
+        "repositoryURL": "https://github.com/romdevios/DrawerHelper",
         "state": {
-          "branch": "main",
-          "revision": "fe69c346a355936a9c33a140e4f556d155b43002",
-          "version": null
+          "branch": null,
+          "revision": "0d51e6c316d785faabdf7d7d484b870a4cbfb1cf",
+          "version": "0.1.0"
         }
       }
     ]

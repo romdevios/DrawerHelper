@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E300647526D0F1C500040C6F /* DrawerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = E300647426D0F1C500040C6F /* DrawerHelper */; };
 		E356C7C826C7B1C500ECB7DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356C7C726C7B1C500ECB7DC /* AppDelegate.swift */; };
 		E356C7CF26C7B1C500ECB7DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E356C7CD26C7B1C500ECB7DC /* Main.storyboard */; };
 		E356C7D126C7B1C800ECB7DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E356C7D026C7B1C800ECB7DC /* Assets.xcassets */; };
 		E356C7D426C7B1C800ECB7DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E356C7D226C7B1C800ECB7DC /* LaunchScreen.storyboard */; };
 		E356C81A26C7BAF300ECB7DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356C81926C7BAF300ECB7DC /* ViewController.swift */; };
 		E356C81C26C976C600ECB7DC /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E356C81B26C976C600ECB7DC /* TableDataSource.swift */; };
+		E38736F826E76A3B002AAD5C /* DrawerHelper in Frameworks */ = {isa = PBXBuildFile; productRef = E38736F726E76A3B002AAD5C /* DrawerHelper */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E300647526D0F1C500040C6F /* DrawerHelper in Frameworks */,
+				E38736F826E76A3B002AAD5C /* DrawerHelper in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 			);
 			name = DrawerExample;
 			packageProductDependencies = (
-				E300647426D0F1C500040C6F /* DrawerHelper */,
+				E38736F726E76A3B002AAD5C /* DrawerHelper */,
 			);
 			productName = DrawerExample;
 			productReference = E356C7C426C7B1C500ECB7DC /* DrawerExample.app */;
@@ -124,7 +124,7 @@
 			);
 			mainGroup = E356C7BB26C7B1C500ECB7DC;
 			packageReferences = (
-				E300647326D0F1C500040C6F /* XCRemoteSwiftPackageReference "DrawerHelper" */,
+				E38736F626E76A3B002AAD5C /* XCRemoteSwiftPackageReference "DrawerHelper" */,
 			);
 			productRefGroup = E356C7C526C7B1C500ECB7DC /* Products */;
 			projectDirPath = "";
@@ -361,20 +361,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E300647326D0F1C500040C6F /* XCRemoteSwiftPackageReference "DrawerHelper" */ = {
+		E38736F626E76A3B002AAD5C /* XCRemoteSwiftPackageReference "DrawerHelper" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/romanfilippov/projects/DrawerHelper/";
+			repositoryURL = "https://github.com/romdevios/DrawerHelper";
 			requirement = {
-				branch = main;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E300647426D0F1C500040C6F /* DrawerHelper */ = {
+		E38736F726E76A3B002AAD5C /* DrawerHelper */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E300647326D0F1C500040C6F /* XCRemoteSwiftPackageReference "DrawerHelper" */;
+			package = E38736F626E76A3B002AAD5C /* XCRemoteSwiftPackageReference "DrawerHelper" */;
 			productName = DrawerHelper;
 		};
 /* End XCSwiftPackageProductDependency section */
