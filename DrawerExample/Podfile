@@ -1,3 +1,5 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
 project 'DrawerExample.xcodeproj'
 
 # platform :ios, ‘11.0’
