@@ -1,6 +1,6 @@
 #!/bin/sh
 
-pod spec lint DrawerHelper.podspec
+pod spec lint DrawerHelper.podspec --quick
 
 if [ $? -eq 0 ]; then
     echo "Lint passed"
