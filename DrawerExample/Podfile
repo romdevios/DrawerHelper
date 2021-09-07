@@ -1,0 +1,8 @@
+project 'DrawerExample.xcodeproj'
+
+# platform :ios, ‘11.0’
+
+target 'DrawerExample' do
+  use_frameworks!
+  pod 'DrawerHelper'
+end
