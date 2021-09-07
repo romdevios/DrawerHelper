@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DrawerHelper",
+        "repositoryURL": "/Users/romanfilippov/projects/DrawerHelper/",
+        "state": {
+          "branch": "main",
+          "revision": "fe69c346a355936a9c33a140e4f556d155b43002",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
