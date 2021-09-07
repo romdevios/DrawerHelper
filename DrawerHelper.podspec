@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "DrawerHelper"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "The tool to help you control the behavior of the drawer view"
 
   spec.description  = <<-DESC
